@@ -4,12 +4,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-}
-a {
-  padding: 1em;
-  color: #2e3e61;
-  text-decoration: none;
 }
 i {
   opacity: 75%;
@@ -36,7 +30,23 @@ i {
   padding-bottom: 2rem;
 }
 .contact {
-  padding-top: 2rem;
+  padding: 2rem;
+}
+.contact a {
+  padding: 1em;
+  opacity: 95%;
+  color: #2e3e61;
+  text-decoration: none;
+}
+.contact a:hover {
+  opacity: 100%;
+  color: #171516;
+}
+.contact a img {
+  align-items: center;
+  opacity: 90%;
+  width: 1rem;
+  padding: 0 2px 0 0;
 }
 .grid {
   display: flex;
@@ -68,7 +78,7 @@ i {
 .card:hover,
 .card:focus,
 .card:active {
-  color: #2e3e61;
+  color: #171516;
   border-color: #2e3e61;
 }
 .project h2 {
@@ -78,7 +88,27 @@ i {
   margin: 0;
   font-size: 1.25rem;
 }
+.link {
+  display: flex;
+}
+.link a {
+  text-decoration: none;
+}
+.link a:hover {
+  color: #3b5998;
+}
+.link img {
+  width: 1rem;
+}
+.link img, 
+.link a {
+  color: #007bb6;
+  justify-self: center;
+}
 @media (max-width: 600px) {
+  body {
+    margin-top: 20vh;
+  }
   .grid {
     width: 100%;
   }
@@ -87,5 +117,21 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .contact {
+    padding: 1rem;
+  }
+  .contact a {
+    font-size: 16px;
+    padding: 1em;
+    opacity: 95%;
+    color: #2e3e61;
+    text-decoration: none;
+  }
+  .contact a img {
+    align-items: center;
+    opacity: 90%;
+    width: 0.75rem;
+    padding: 0 2px 0 0;
   }
 }
