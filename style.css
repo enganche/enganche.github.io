@@ -98,6 +98,7 @@ i {
   color: #3b5998;
 }
 .link img {
+  padding-left: 2px;
   width: 1rem;
 }
 .link img, 
