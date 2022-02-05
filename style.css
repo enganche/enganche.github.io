@@ -65,7 +65,7 @@ i {
 .project {
   margin: 1rem;
   padding: 1.5rem;
-  max-width: 300px;
+  width: 300px;
 }
 .card {
   margin: 0.5rem;
@@ -86,7 +86,6 @@ i {
 }
 .project p {
   margin: 0;
-  font-size: 1.25rem;
 }
 .link {
   display: flex;
