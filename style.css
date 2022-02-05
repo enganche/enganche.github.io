@@ -125,6 +125,7 @@ i {
     align-items: center;
   }
   .contact {
+    display: flex;
     padding: 1rem;
   }
   .contact a {
