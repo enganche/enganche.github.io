@@ -24,10 +24,16 @@ i {
   align-items: center;
 }
 .summary h1 {
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   font-size: 2.5rem;
 }
 .summary h4 {
   padding-bottom: 2rem;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .contact {
   padding: 2rem;
@@ -107,7 +113,7 @@ i {
 }
 @media (max-width: 600px) {
   body {
-    margin-top: 20vh;
+    margin-top: 5vh;
   }
   .grid {
     width: 100%;
