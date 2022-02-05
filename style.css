@@ -125,12 +125,11 @@ i {
     align-items: center;
   }
   .contact {
-    display: flex;
     padding: 1rem;
   }
   .contact a {
     font-size: 0.75rem;
-    padding: 15px;
+    padding: 10px;
     opacity: 95%;
     color: #2e3e61;
     text-decoration: none;
