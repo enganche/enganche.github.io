@@ -129,7 +129,7 @@ i {
   }
   .contact a {
     font-size: 0.75rem;
-    padding: 1em;
+    padding: 15px;
     opacity: 95%;
     color: #2e3e61;
     text-decoration: none;
@@ -138,6 +138,6 @@ i {
     align-items: center;
     opacity: 90%;
     width: 0.75rem;
-    padding: 0 2px 0 0;
+    padding: 0 1px 0 0;
   }
 }
