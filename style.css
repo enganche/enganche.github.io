@@ -73,6 +73,9 @@ i {
   padding: 1.5rem;
   width: 300px;
 }
+.banner {
+  width: 300px;
+}
 .card {
   margin: 0.5rem;
   padding: 1rem;
