@@ -81,7 +81,7 @@ i {
 .card {
   margin: 0.5rem;
   padding: 1rem;
-  max-width: 250px;
+  max-width: 300px;
 }
 .project:hover,
 .project:focus,
