@@ -72,7 +72,7 @@ i {
 }
 .project {
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 1rem;
   width: 300px;
 }
 .banner {
@@ -81,7 +81,7 @@ i {
 .card {
   margin: 0.5rem;
   padding: 1rem;
-  max-width: 300px;
+  width: 300px;
 }
 .project:hover,
 .project:focus,
