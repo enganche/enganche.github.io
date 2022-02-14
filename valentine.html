@@ -6,7 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Valentine</title>
     <script type = "text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-    <script src="script.js"></script>
+    <script>
+        $(document).ready(() => {
+  $('.gift').hide();
+
+  $(".receive").click(() => {
+    $('.gift').toggle();
+  });
+  
+});
+
+    </script>
 </head>
 <body style="color: #D41F3A;">
     <div class="main">
