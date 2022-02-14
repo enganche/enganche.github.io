@@ -10,4 +10,25 @@ body {
   text-align: center;
   color: #2c3e50;
 }
+.project, .card {
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.project {
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+}
+.banner {
+  width: 300px;
+}
+.card {
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 300px;
+}
 */
