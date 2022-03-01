@@ -3,6 +3,7 @@
 //  color: #2e3e61;
 
 /* 
+  background-color: #060612;
 body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

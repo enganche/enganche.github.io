@@ -3,10 +3,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
+  background-image: url('public/dev.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #060612;
 }
 i {
   opacity: 75%;
+  text-shadow: 4px 4px 4px #000000;
+}
+h1, h2 {
+  opacity: 90%;
+  color: #f13b3b;
 }
 .main {
   min-height: 100vh;
@@ -24,16 +33,14 @@ i {
   align-items: center;
 }
 .summary h1 {
-  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-size: 3rem;
+  font-size: 5rem;
+  color: #f13b3b;
+  text-shadow: 0 0 4px #FF0000;
 }
 .summary h4 {
+  color: #f1797993;
   padding-bottom: 2rem;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  text-shadow: 2px 2px 4px #000000;
 }
 .contact {
   padding: 2rem;
@@ -41,16 +48,17 @@ i {
 .contact a {
   padding: 1em;
   opacity: 95%;
-  color: #2e3e61;
+  color: inherit;
   text-decoration: none;
 }
 .contact a:hover {
-  opacity: 100%;
-  color: #171516;
+  color: #ff0000;
 }
 .contact a img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  color: #ffffff;
   align-items: center;
-  opacity: 90%;
   width: 0.75rem;
 }
 .grid {
@@ -67,11 +75,14 @@ i {
   color: inherit;
   text-decoration: none;
   transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #eaeaea;
+  color: #060612;
+  box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 10px 4px 8px 0 rgba(255, 255, 255, 0.055);
 }
 .project {
-  border: 1px solid #E9EAEC;
   margin: 1rem;
-  width: 325px;
+  width: 500px;
+  padding-bottom: 1rem;
 }
 .project h2,
 .project p,
@@ -81,12 +92,12 @@ i {
 }
 .banner {
   opacity: 100%;
-  width: 325px;
+  width: 100%;
 }
 .card {
   border-radius: 15px;
   border: 1px solid #eaeaea;
-  margin: 0.5rem;
+  margin: 1rem;
   padding: 1rem;
   width: 300px;
 }
@@ -128,7 +139,10 @@ i {
 }
 @media (max-width: 600px) {
   body {
-    margin-top: 5vh;
+    margin-top: 1vh;
+  }
+  .summary h1 {
+    font-size: 4rem;
   }
   .grid {
     width: 100%;
@@ -145,7 +159,6 @@ i {
   .contact a {
     padding: 10px;
     opacity: 95%;
-    color: #2e3e61;
     text-decoration: none;
   }
   .contact a img {
