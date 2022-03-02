@@ -81,7 +81,7 @@ h1, h2 {
 }
 .project {
   margin: 1rem;
-  width: 500px;
+  width: 400px;
   padding-bottom: 1rem;
 }
 .project h2,
@@ -100,12 +100,6 @@ h1, h2 {
   margin: 1rem;
   padding: 1rem;
   width: 300px;
-}
-.project:hover,
-.project:focus,
-.project:active {
-  color: #171516;
-  background-color: #E9EAEC;
 }
 .card:hover,
 .card:focus,
@@ -163,5 +157,10 @@ h1, h2 {
   }
   .contact a img {
     align-items: center;
+  }
+  .contact a:hover {
+    background-color: #f13b3b;
+    border-radius: 10px;
+    color: inherit;
   }
 }
