@@ -1,5 +1,5 @@
 body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -16,6 +16,12 @@ i {
 h1, h2 {
   opacity: 90%;
   color: #f13b3b;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #FF0000;
+  color: #ffffff;
 }
 .main {
   min-height: 100vh;

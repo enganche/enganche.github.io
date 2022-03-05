@@ -1,3 +1,10 @@
+function copy() {
+  const email = 'anhtuan.gamedev@gmail.com';
+  navigator.clipboard.writeText(email);
+  let alert = document.querySelector('#alert');
+  alert.innerHTML = 'Copied!';
+}
+
 // Temporary use this file to save something I haven't used yet
 
 //  color: #2e3e61;
