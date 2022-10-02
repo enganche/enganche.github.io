@@ -4,9 +4,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
-  background-image: url('public/dev.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
   background-color: #060612;
 }
 
