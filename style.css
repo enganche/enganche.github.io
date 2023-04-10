@@ -4,7 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
-  background-color: #060612;
+  background-color: #222222;
 }
 
 .summary i {
@@ -14,13 +14,13 @@ body {
 
 h1, h2 {
   opacity: 90%;
-  color: #f13b3b;
+  color: #ee6c53;
 }
 
 button {
   border: none;
   border-radius: 5px;
-  background-color: #FF0000;
+  background-color: #ee6c53;
   color: #ffffff;
 }
 
@@ -43,8 +43,8 @@ button {
 
 .summary h1 {
   font-size: 5rem;
-  color: #f13b3b;
-  text-shadow: 0 0 4px #FF0000;
+  color: #ee6c53;
+  text-shadow: 0 0 4px #ee6c53;
 }
 
 .summary h4 {
@@ -65,7 +65,7 @@ button {
 }
 
 .contact a:hover {
-  color: #ff0000;
+  color: #ee6c53;
 }
 
 .contact a img {
@@ -162,12 +162,12 @@ button {
 }
 
 #copy {
-  color: #f13b3b;
+  color: #ee6c53;
   font-weight: 700;
 }
 
 #copy:hover {
-  color: #b30000;
+  color: #ee6c53;
 }
 
 #copy:click {
@@ -187,13 +187,13 @@ button {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   width: 5px;
-  background: #f13b3b; 
+  background: #ee6c53; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
+  background: rgb(141, 1, 1);
 }
 
 @media (max-width: 600px) {
@@ -224,7 +224,7 @@ button {
     align-items: center;
   }
   .contact a:hover {
-    background-color: #f13b3b;
+    background-color: #ee6c53;
     border-radius: 10px;
     color: inherit;
   }
