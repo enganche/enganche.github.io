@@ -1,7 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 
 }
@@ -9,9 +7,6 @@ body {
 .head-bar {
   display: flex;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   padding: 0 20px;
   align-self: center;
 }
