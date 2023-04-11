@@ -3,8 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ffffff;
-  background-color: #222222;
+
 }
 
 .head-bar {
@@ -27,7 +26,7 @@ body {
 }
 
 .head-bar a {
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -38,7 +37,6 @@ body {
 
 .summary i {
   opacity: 75%;
-  text-shadow: 4px 4px 4px #000000;
 }
 
 h1, h2 {
@@ -78,7 +76,6 @@ button {
 .summary h4 {
   color: #f1797993;
   padding-bottom: 2rem;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 .contact {
